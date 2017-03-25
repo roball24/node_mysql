@@ -1,0 +1,25 @@
+Example app listening on port 3000!
+Error:  { Error: connect ETIMEDOUT
+    at Connection._handleConnectTimeout (/Users/robbyallen/Desktop/server/node_modules/mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:339:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/robbyallen/Desktop/server/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/robbyallen/Desktop/server/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/Users/robbyallen/Desktop/server/node_modules/mysql/lib/Connection.js:130:18)
+    at Object.<anonymous> (/Users/robbyallen/Desktop/server/server.js:13:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true }
